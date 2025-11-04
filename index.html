@@ -1,14 +1,20 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LoTUS-FD</title>
-    <script type="module" crossorigin src="/assets/index-DTYpWk70.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DmDOHlwJ.css">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- 讓瀏覽器 UI 跟底色一致 -->
+    <meta name="theme-color" content="#006284" />
+    <title>LoTUS-BF</title>
+    <!-- ⚠️ 不再用任何 <link rel="stylesheet">，避免載入順序覆蓋 our theme -->
+    <script type="module" crossorigin src="./assets/index-B6OBsfi4.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DweI_ZBL.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
+    <!-- 只載入 JS 入口；所有 CSS 由 main.jsx 依序 import -->
   </body>
 </html>
-
